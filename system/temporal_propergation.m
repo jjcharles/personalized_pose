@@ -1,5 +1,3 @@
-%v4 - fixes an issue when compbining overlapping frames from each job
-
 function detections = temporal_propergation(opts,filename,folder,jobid,maxjobs,itr)
 
 load(filename.detections);
