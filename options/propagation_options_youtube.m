@@ -48,4 +48,4 @@ opts.cnn.finetune.main_save_folder = '/fusion_training/';
 opts.cnn.finetune.cafferoot = '/caffe-heatmap/';
 
 %% ------- deepflow options --------
-opts.deepflowstatic = '/home/james/Documents/MATLAB/DeepFlow_release2.0/deepflow';
+opts.deepflowstatic = '/home/progs/DeepFlow_release2.0/deepflow';
