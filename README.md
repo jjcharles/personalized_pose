@@ -171,7 +171,7 @@ We recommend experimenting with the following:
 * `opts.flow.stepsize` temporal window used to propagate forward and backwards in time. In [1], this was set to 30.
 
 ## Personalizing the ConvNet of [2]
-Personalization is achieved by fine-tuning the ConvNet of [2] (Caffe model) on the propagated pose estimates. 
+Personalization is achieved by fine-tuning the ConvNet (Caffe model) of [2] on the propagated pose estimates. 
 
 The function `fusion.setupFinetuningCropped` is designed to simplify the task of setting up the training data so the model can be fine-tuned in Caffe.
 
